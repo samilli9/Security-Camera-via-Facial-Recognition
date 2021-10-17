@@ -56,10 +56,10 @@ while True:
         
 
         ###############################################################################
-        # Logic for recording a video clip when a subject appears in the video frame! #
-        # If something appears in the video frame then start recording.      		  #
-        # Keep recording UNLESS the subject is gone for more than 5 seconds. 		  #
-        # Store the video with a timestamp.                                 		  #
+        # Logic for recording a video clip when a subject appears in the video frame! 
+        # If something appears in the video frame then start recording.      		  
+        # Keep recording UNLESS the subject is gone for more than 5 seconds. 		  
+        # Store the video with a timestamp.                                 		  
         ###############################################################################
         if len(faces) + len(bodies) > 0:
             if detection:
